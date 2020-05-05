@@ -1,0 +1,54 @@
+
+.gantt__component {
+  white-space: nowrap;
+  overflow-x: auto;
+  height: calc(100vh - 160px);
+}
+
+.gantt__filter {
+  text-align: center;
+}
+
+.gantt__list {
+  background-color: white;
+  height: calc(100vh - 160px);
+  border-right: 1px solid silver;
+  min-width: 600px;
+
+
+}
+
+.gantt__container {
+  display: flex;
+  height: calc(100vh - 160px);
+  border: 1px solid silver;
+  overflow: hidden;
+  margin-top: 10px;
+
+}
+
+.header__and__gantt {
+  display: flex;
+  margin-left: auto;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width:auto;
+  max-width: calc(100% - 600px);
+}
+.clonedHeader {
+  margin-left: -5px;
+  min-height: 80px;
+  background: white !important;
+  overflow-x: auto;
+  overflow-y: hidden;
+  border: 1px solid silver;
+}
+
+.clonedHeader::-webkit-scrollbar {
+  display: none;
+}
+
+.date {
+  height: 60px;
+}

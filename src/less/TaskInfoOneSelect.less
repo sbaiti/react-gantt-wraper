@@ -1,0 +1,166 @@
+.filter {
+  min-height: 30px;
+}
+
+.header__filter__container {
+  height: 80px;
+  display: flex;
+  margin-left: auto;
+  flex-direction: column;
+  border: 1px solid silver;
+
+}
+
+.task__filter {
+  display: flex;
+}
+
+.date__filter__container__utile {
+  position: relative;
+  margin-left: 10px;
+}
+
+.task__item__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: none;
+  min-height: 60px;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: -15px;
+}
+.task__item__header__filter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: none;
+  min-height: 60px;
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: -10px;
+}
+
+.task__header__name {
+  flex-basis: 60%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.task__item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid silver;
+  border-left: 1px solid silver;
+  height: 38px;
+  font-size: 13px;
+}
+
+.task__item__selected {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid silver;
+  border-left: 1px solid silver;
+  height: 38px;
+  font-size: 13px;
+  background: #fff168;
+}
+
+/* .task__item:nth-child(even) {
+  background: #f5f5f5;
+} */
+
+.task__item:hover {
+  background: #fff168;
+  cursor: pointer;
+}
+
+.task__name {
+  flex-basis: 60%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-left: 22px;
+  cursor: pointer;
+}
+
+.task__times {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  text-overflow: ellipsis;
+}
+.task__times__header {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin-left: 40px;
+}
+
+.glyphicon-item {
+  margin: 0 10px;
+}
+
+.tasks__info__wrapper {
+  overflow-y: auto;
+  max-height: calc(100vh - 160px);
+  min-width: 600px;
+}
+
+.tasks__info__wrapper::-webkit-scrollbar {
+  width: 0px;
+}
+
+.list__buttom {
+  height: 162.5px;
+}
+
+.date__filter__wrapperr {
+  position: absolute;
+  z-index: 1;
+}
+.arrow__upp {
+  margin: 1px 0 0 10px;
+  width: 0px;
+  height: 0px;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 10px solid #ff9f00;
+}
+
+.calendar {
+  display: block;
+  background:white;
+  width: 250px;
+  border: solid 1px ;
+  margin: 10px auto;
+  box-shadow: 0 0 15px 0 ;
+  font-size: 1.3rem;
+  text-align: center;
+}
+.react-datepicker__day-name,
+  .react-datepicker__day {
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+    font-weight: 600;}
+
+    .label-primary:hover {
+      cursor: none !important;
+    }
+    .filter__msg{
+      font-size: 20px;
+      text-align: center !important;
+      margin-top: 50px;
+    }
+    .Glyphicon__propertyLabel{
+      display: flex;
+    }
+    .Glyphicon__gantt{
+      margin-right: 7px;
+    }
